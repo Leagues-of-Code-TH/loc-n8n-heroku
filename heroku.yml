@@ -17,6 +17,7 @@ setup:
     DB_POSTGRESDB_PORT: 5432
     DB_POSTGRESDB_USER: "dbuser"
     DB_POSTGRESDB_PASSWORD: "dbpass"
+    DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED: false
 
 build:
     docker:
